@@ -3,7 +3,7 @@ import org.junit.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestListExamples implements StringChecker {
+public class TestListExamples {
 @Test
  public void testFilter() {
   List<String> list = new ArrayList<String>(Arrays.asList("aaa", "eee", "mmm", "lll"));
